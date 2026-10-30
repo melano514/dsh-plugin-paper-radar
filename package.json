@@ -1,0 +1,43 @@
+{
+  "name": "dsh-plugin-paper-radar",
+  "version": "0.1.0",
+  "description": "Literature radar: search medical and life-science papers by topic or DOI, download open-access PDFs, and write a decision card with four manual fallback channels for paywalled papers.",
+  "type": "module",
+  "license": "MIT",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "icon.png",
+    "locale/*.json",
+    "assets/SKILL.md",
+    "scripts/paper_radar.py",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "literature",
+    "paper",
+    "pdf",
+    "doi",
+    "open-access",
+    "skill"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
