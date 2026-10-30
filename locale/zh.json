@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "文献雷达",
+    "description": "按领域或 DOI 检索医学文献并抓取 OA 全文 PDF；非 OA 时生成科研通、Sci-Hub、SciDown、X-MOL 四通道决策卡。"
+  }
+}
