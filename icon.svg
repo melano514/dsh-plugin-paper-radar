@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Literature Radar">
+  <rect width="128" height="128" rx="26" fill="#0f172a"/>
+  <g fill="none" stroke="#38bdf8" stroke-width="4" stroke-linecap="round">
+    <circle cx="64" cy="64" r="44" opacity=".28"/>
+    <circle cx="64" cy="64" r="29" opacity=".45"/>
+    <circle cx="64" cy="64" r="14" opacity=".7"/>
+    <path d="M64 64 L98 30" opacity=".95"/>
+    <path d="M64 20 A44 44 0 0 1 108 64" stroke="#22d3ee" stroke-width="6"/>
+  </g>
+  <circle cx="64" cy="64" r="5" fill="#22d3ee"/>
+  <g fill="#e2e8f0">
+    <rect x="44" y="86" width="8" height="16" rx="2"/>
+    <rect x="58" y="78" width="8" height="24" rx="2"/>
+    <rect x="72" y="82" width="8" height="20" rx="2"/>
+    <rect x="86" y="90" width="8" height="12" rx="2" opacity=".7"/>
+  </g>
+</svg>
